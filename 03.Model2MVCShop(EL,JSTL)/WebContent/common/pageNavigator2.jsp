@@ -19,12 +19,3 @@
 	<c:if test="${ resultPage.endUnitPage < resultPage.maxPage }">
 			<a href="javascript:fncGetProductList('${resultPage.endUnitPage+1}')">이후 ▶</a>
 	</c:if>
-	<!--  		user랑 product 2개를 비교하기
-				<c:choose>
-				<c:when test="${menu eq 'manage' }">
-		 			상품 관리<br/>
-				 </c:when>
-				<c:when test="${menu eq 'search'}">
-		 			상품 상세 조회<br/>
-				 </c:when>
-				</c:choose>	-->
